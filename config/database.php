@@ -36,7 +36,7 @@ return [
     'connections' => [
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('DB_URI', 'mongodb+srv://vienthongtaiphat:@Duy854530@cluster0.2a4jlcs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),
+            'dsn' => 'mongodb+srv://vienthongtaiphat:@Duy854530@cluster0.2a4jlcs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
             'database' => 'myappdb'
         ],
 
